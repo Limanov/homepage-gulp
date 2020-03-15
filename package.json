@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maciejkorsan/wtf-gulp-starter.git"
+    "url": "git+https://github.com/Limanov/homepage-gulp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maciejkorsan/wtf-gulp-starter/issues"
+    "url": "https://github.com/Limanov/homepage-gulp/issues"
   },
-  "homepage": "https://github.com/maciejkorsan/wtf-gulp-starter#readme",
+  "homepage": "https://github.com/Limanov/homepage-gulp#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
@@ -36,7 +36,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "through2": "^3.0.1",
     "vinyl-named": "^1.1.0",
     "webpack": "^4.35.3",
