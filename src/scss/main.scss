@@ -14,3 +14,17 @@ body {
   color: $black;
   background: $white;
 }
+.body__flexbox {
+  color: black;
+  background: darkviolet;
+}
+.flex{
+    display: flex;
+}
+
+.flex__item{
+  background: yellow;
+  color: black;
+  border: 1px solid red;
+ padding: 16px;
+}

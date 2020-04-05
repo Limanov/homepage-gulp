@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="main.js"></script>
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <script src="/js/main.js"></script>
 </head>
 
 <body>
     <main>
         <header>
             <a href="index.html">Strona główna</a>
-            <a href="Podstrona.html">Podstrona</a>
+            <a href="podstrona.html">Podstrona</a>
+            <a href="flexbox.html">Flexbox</a>
         </header>
         <h1>
             Kamil Kalota - strona domowa
         </h1>
         <section class="about">
-            <h2>Kim jestem</h2>
+            <h2 class="about_header">Kim jestem</h2>
             <p>Cześć! Jestem programistą po Technologii Żywności. Przepracowałem kilka lat w sektorze spożywczym i od kilku lat pracuje jako programista.
                Od wielu lat jestem zaangażowany w działalność harcerską.
             </p>
         </section>
-        <section calss="Dairy">
-            <h2>
+        <section class="diary">
+            <h2 calss="diary__header">
                 Pamiętniczek
             </h2>
             <section>
@@ -35,12 +36,33 @@
                 </h3>
                 <p>Wystarczy zrobić parę markupów</p>
             </section>
-            <section>
+            <section id="hash">
                 <h3>
-                   Przenoszenie po stronie
+                   Podkreślanie wypowiedzi
                 </h3>
                 <p>
-                    Jeśli dodamy # w hrefie to przenosi do innej części dokumentu z określonym id
+                    <b>Pogrubienie - b</b><br>
+                    <i>Podkreślenie - i</i><br>
+                    <strong>podkreśla wagę frazy - strong</strong><br>
+                    <em>nacisk na zawartość - em</em><br>
+                    <a href="#hash">Jeśli dodamy  w hrefie to przenosi do innej części dokumentu z określonym id</a>
+                </p>
+            </section>
+            <section>
+                <h3>
+                    Ważnośc w css.
+                </h3>
+                <p>
+                    !important, style="", #id, .class, element
+                    jeśli jest w tym samym miejscu to zostaje najniższy
+                </p>
+            </section>
+            <section>
+                <h3>
+                   Flexboxy
+                </h3>
+                <p>
+                   <a href="flexbox.html">Przejdź do flexboxów</a>
                 </p>
             </section>
         </section>
