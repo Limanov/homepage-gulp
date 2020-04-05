@@ -13,6 +13,12 @@ html {
 body {
   color: $black;
   background: $white;
+  
+}
+.html__flexbox {
+  color: black;
+  background: darkviolet;
+  border: 1px solid red;
 }
 .body__flexbox {
   color: black;
@@ -20,11 +26,16 @@ body {
 }
 .flex{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex__item{
   background: yellow;
   color: black;
-  border: 1px solid red;
- padding: 16px;
+  border: 3px solid white;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  padding: 16px;
 }
