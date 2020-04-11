@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pierwszy komponent w React.js</title>
+  <script src="https://unpkg.com/react/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  <script src="/js/main.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <MojKomponent />
+  <script type="text/babel">
+    ReactDOM.render(
+      <MojKomponent 
+      title="I co, duma?" 
+      content="nie chce mi się wklejać" />,
+
+      document.getElementById('app')
+    );
+    function MojKomponent({ title, content }) {
+  return (
+      <div>
+    <header>
+            <a href="index.html">Strona główna</a>
+            <a href="podstrona.html">Podstrona</a>
+            <a href="flexbox.html">Flexbox</a>
+            <a href="react-function.html">React function</a>
+            <a href="react-class.html">React class</a>
+        </header>
+    
+      <dialog  open>
+      <span className="checkboxActive" 
+      //onChange={alert('tak')}
+      >Test</span>
+        <h1>{title}</h1>
+        <p>{content}</p>
+      </dialog>
+    </div>
+  );
+}
+  </script>
+</body>
+
+</html>

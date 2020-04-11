@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pierwszy komponent w React.js</title>
+  <script src="https://unpkg.com/react/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  <script src="/js/main.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="text/babel">
+  const allUsers = ['Michal', 'Kasia', 'Jacek', 'Marta', 'Tomek', 'Ania'];
+
+class Item extends React.Component {
+  constructor() {
+    super();    
+    this.handleIncrement = this.handleIncrement.bind(this);
+    this.state = {
+      count: 0,
+      class:'checkboxActive'
+
+    };
+  }
+  handleIncrement = () => {
+    this.setState({ count: this.state.count + 1 });
+    this.setState({ class: 'checkboxDeactive'});
+  };
+ 
+  render() {
+    return (
+      <React.Fragment>
+        <span className={this.styleBadge()}>{this.styleCount()}</span>
+        <span onClick={this.handleIncrement} className={this.state.class}>
+          Increment
+        </span>
+      </React.Fragment>
+    );
+  }
+ 
+  styleBadge() {
+    let classes = "badge m-3 badge-";
+    classes += this.state.count === 0 ? "warning" : "info";
+    return classes;
+  }
+ 
+  styleCount() {
+    const { count } = this.state;
+    return count === 0 ? "No Items" : count;
+  }
+}
+
+ReactDOM.render(<Item />, document.getElementById("app"));
+  </script>
+</body>
+
+</html>
