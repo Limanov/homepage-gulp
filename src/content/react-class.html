@@ -35,8 +35,11 @@ class Item extends React.Component {
     return (
       <React.Fragment>
         <span className={this.styleBadge()}>{this.styleCount()}</span>
-        <span onClick={this.handleIncrement} className={this.state.class}>
+        <span onClick={this.handleIncrement} className={[this.state.class, "checkboxLeft"].join(" ")}>
           Increment
+        </span>
+        <span onClick={this.handleIncrement} className={[this.state.class, "checkboxRight"].join(" ")}>
+          Decrement
         </span>
       </React.Fragment>
     );

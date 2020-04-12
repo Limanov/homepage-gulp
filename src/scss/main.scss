@@ -61,19 +61,15 @@ body {
 }    
 .checkboxActive {
     position: relative;
-    padding: 1em;
     color: darkblue;
     border: #bbbbbb 1px solid;
-    border-radius: 50%;
     background-color: yellow;
     font-size: 14px;
     width: 51px;
     z-index: 1;
 }
 .checkboxDeactive {
-    padding: 1em;
     background-color: lightsteelblue;
-    border-radius: 50%;
     border: #009688 1px solid;
     font-size: 12px;
     color: green;
@@ -81,6 +77,13 @@ body {
     z-index: -1;
     }
 
-  .checkboxRight {
+.checkboxLeft {
+  border-radius: 50%;
+  padding: 1em;
+    }
+
+.checkboxRight {
     margin-left: -1em;
-}
+    border-radius: 50%;
+    padding: 1em;
+    }
