@@ -15,32 +15,61 @@
   <div id="app"></div>
   <script type="text/babel">
   const allUsers = ['Michal', 'Kasia', 'Jacek', 'Marta', 'Tomek', 'Ania'];
-
+  const checkboxLeftValue = "Increment";
+  const checkboxRightValue = "Decrement";
+  let checkboxLeftDefaultValue = "checkboxActive";
+  let checkboxRightDefaultValue = "checkboxDeactive";
+  const defalutValue = false;
+  if (!defalutValue)
+  {
+   checkboxLeftDefaultValue = "checkboxDeactive";
+   checkboxRightDefaultValue = "checkboxActive";
+  }
+  else
+  {
+  const checkboxLeftDefaultValue = "checkboxActive";
+  const checkboxRightDefaultValue = "checkboxDeactive";
+  }
 class Item extends React.Component {
   constructor() {
+
     super();    
     this.handleIncrement = this.handleIncrement.bind(this);
     this.state = {
+      isChecked:defalutValue,
       count: 0,
-      class:'checkboxActive'
-
+      leftClass:checkboxLeftDefaultValue,
+      rightClass:checkboxRightDefaultValue
     };
   }
-  handleIncrement = () => {
+  handleIncrement = (event) => {
     this.setState({ count: this.state.count + 1 });
-    this.setState({ class: 'checkboxDeactive'});
+    if  (this.state.isChecked){
+    this.setState({ isChecked: false,
+                    leftClass: 'checkboxDeactive',
+                    rightClass: 'checkboxActive'})
+    }
+    else{
+      this.setState({ isChecked: true,
+                      leftClass: 'checkboxActive',
+                      rightClass: 'checkboxDeactive'})
+    }
   };
  
   render() {
     return (
       <React.Fragment>
+        <input type="checkbox"
+               checked={this.state.isChecked}
+               onChange={this.handleIncrement}
+               className=""  />
+        <span onClick={this.handleIncrement} className={[this.state.leftClass, "checkboxLeft"].join(" ")}>
+          {checkboxLeftValue}
+        </span>
+        <span onClick={this.handleIncrement} className={[this.state.rightClass, "checkboxRight"].join(" ")}>
+          {checkboxRightValue}
+        </span>
         <span className={this.styleBadge()}>{this.styleCount()}</span>
-        <span onClick={this.handleIncrement} className={[this.state.class, "checkboxLeft"].join(" ")}>
-          Increment
-        </span>
-        <span onClick={this.handleIncrement} className={[this.state.class, "checkboxRight"].join(" ")}>
-          Decrement
-        </span>
       </React.Fragment>
     );
   }
