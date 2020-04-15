@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="index.html">Strona główna</a>
+            <a href="checkbox.html">Checkbox</a>
+            <a href="flexbox.html">Flexbox</a>
+        </header>
+        <br>
+        <br>
+        <input class="checkbox div-checkbox" type="checkbox"/>
+
+        <span class="checkbox-active">
+            Tak
+        </span>
+        <span class="checkbox">
+            Nie
+        </span>
+        <div class="make-switch switch-small"  data-autopostback="false"
+         data-on-label="TAK" data-off-label="NIE" data-on="default" 
+         data-off="primary">
+        </div>
+        <div id="root"></div>
+        <footer>
+            By me
+        </footer>
+</body>
+
+</html>
+<script type="text/babel">
+class Reservation extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        isGoing: true,
+        numberOfGuests: 2
+      };
+  
+      this.handleInputChange = this.handleInputChange.bind(this);
+    }
+  
+    handleInputChange(event) {
+      const target = event.target;
+      const value = target.type === 'checkbox' ? target.checked : target.value;
+      const name = target.name;
+      alert('message')
+      this.setState({
+        [name]: value
+      });
+    }
+  
+    render() {
+      return (
+
+        <form>
+        <div class="checkboxActive" onclick={this.handleInputChange}>
+             <span class="checkbox-active">Tekst
+             </span>
+        </div>
+          <label>
+            Is going:
+            <input
+              name="isGoing"
+              type="checkbox"
+              checked={this.state.isGoing}
+              onChange={this.handleInputChange} />
+          </label>
+          <br />
+          <label>
+            Number of guests:
+            <input
+              name="numberOfGuests"
+              type="number"
+              value={this.state.numberOfGuests}
+              onChange={this.handleInputChange} />
+          </label>
+        </form>
+      );
+    }
+  }
+  
+  ReactDOM.render(
+    <Reservation />,
+    document.getElementById('root')
+  );
+  </script>
