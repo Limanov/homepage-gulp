@@ -109,3 +109,35 @@ body {
 .radiobutton input:checked ~ .checkmark {
   background-color: #2196F3;
 }
+
+input[type="radio"] {
+  display: none;
+}
+
+.fakeRadio {
+  width: 29px;
+  height: 29px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px;
+  background-color: #bbb;
+}
+
+.checkmark {
+  display: none;
+  width: 50%;
+  height: 50%;
+  border: 1px solid #dddd;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: red;
+}
+
+
+input[type="radio"]:checked ~ .fakeRadio .checkmark {
+  display: block;
+}

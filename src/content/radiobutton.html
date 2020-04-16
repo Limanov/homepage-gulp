@@ -9,6 +9,7 @@
   <script src="https://unpkg.com/babel-standalone/babel.js"></script>
   <link href="/css/main.css" rel="stylesheet" type="text/css">
   <script src="/js/main.js"></script>
+
 </head>
 
 <body>
@@ -27,6 +28,31 @@ class Radio extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <div>
+        <label>
+            <input type="radio" name="radio" checked/>
+            <span className="fakeRadio">
+                <span className="checkmark"></span>
+            </span>One
+        </label><br/>
+        <label>
+            <input type="radio" name="radio"/>
+            <span className="fakeRadio">
+                <span className="checkmark"></span>
+            </span>Two
+        </label>
+        <label>
+            <input type="radio" name="radio"/>
+            <span className="fakeRadio">
+                <span className="checkmark"></span>
+            </span>Three
+        </label>
+        <label>
+            <input type="radio" name="radio"/>
+            <span className="fakeRadio">
+                <span className="checkmark"></span>
+            </span>Four
+        </label>
       <div className="radioGroup">
       <label className="radioLabel">
         <input type="radio" name="radioTest" className="radiobutton"/>
@@ -36,9 +62,9 @@ class Radio extends React.Component {
         <input type="radio" name="radioTest"/><br/>
         <input type="radio" name="radioTest"/><br/>
         </div>
+        </div>
       </React.Fragment>
-    );
-  }
+  )};
 }
 
 ReactDOM.render(<Radio />, document.getElementById("app"));

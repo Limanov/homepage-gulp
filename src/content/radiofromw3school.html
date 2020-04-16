@@ -27,28 +27,16 @@
 /* Create a custom checkbox */
 .checkmark {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   height: 29px;
   width: 29px;
   background-color: #eee;
   border-radius: 50%;
+  border: 1px solid green;
 }
 
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  height: 100px;
-  width: 100px;
-  border: 1px solid #4b919b;
-  background-color:#d80707;
-  border-radius: 50%;
-  z-index:1;
-}
 
-/* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #0000;
-}
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
@@ -64,46 +52,34 @@
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-    position: relative;
-    top: -1px;
-  left: -1px;
-  width: 29px;
-  height: 29px;
-  border: 1px solid #a3cdd2;
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  border: 1px solid #aaa;
   border-radius: 50%;
-  background-color: #f2f3f7;
-  z-index:-1;
+  align-items: center;
 }
-
-/* .circle {
-    background-color:#f2f3f7;
-    border:1px solid red;    
-    height:100px;
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    width:100px;
-} */
 </style>
 <body>
-    <div class="circle"></div>
+
 <h1>Custom Checkboxes</h1>
 <label class="container">One
-  <input type="radio" name="test" checked="checked">
+  <input type="radio"  name="radio">
   <span class="checkmark"></span>
 </label>
 <label class="container">Two
-  <input type="radio">
+  <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
 <label class="container">Three
-  <input type="radio" name="test">
+  <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
 <label class="container">Four
-  <input type="radio" name="test">
+  <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
 
 </body>
-</html>
