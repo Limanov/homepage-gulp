@@ -26,12 +26,14 @@ class Radio extends React.Component {
   }
  
   render() {
+    const {name} = this.props;
     return (
+      
       <React.Fragment>
         <div>
           <ul>
         <label>
-            <input type="radio" name="radio"/>
+            <input type="radio" name={name}/>
             <span className="fakeRadio">
                 <span className="checkmark"></span>
             </span>One
@@ -76,7 +78,7 @@ class Radio extends React.Component {
   )};
 }
 
-ReactDOM.render(<Radio />, document.getElementById("app"));
+ReactDOM.render(<Radio name="but" />, document.getElementById("app"));
   </script>
 </body>
 
