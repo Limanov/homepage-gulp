@@ -241,3 +241,26 @@
 2020-04-15T07:16:23.153Z - debug:  [19528] TFVC: tf add -noprompt -?
 2020-04-15T07:16:23.156Z - debug:  [19528] TFVC: spawned new process (duration: 3ms)
 2020-04-15T07:16:23.161Z - debug:  [19528] TFVC: spawned new process (duration: 4ms)
+2020-04-15T07:16:27.084Z - debug:  [19528] TFVC: add exit code: 0 (duration: 3931ms)
+2020-04-15T07:16:27.085Z - debug:  [19528] TFVC Minimum required version: 14.102.0
+2020-04-15T07:16:27.085Z - debug:  [19528] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
+2020-04-15T07:16:27.085Z - debug:  [19528] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
+2020-04-15T07:16:27.085Z - debug:  [19528] TFVC: tf workfold -noprompt ********
+2020-04-15T07:16:27.088Z - debug:  [19528] TFVC: spawned new process (duration: 3ms)
+2020-04-15T07:16:27.326Z - debug:  [19528] TFVC: workfold exit code: 100 (duration: 241ms)
+2020-04-15T07:16:27.327Z - debug:  [19528] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2020-04-15T07:16:27.327Z - error:  [19528] Execution of the TFVC command line failed unexpectedly.
+2020-04-16T08:41:21.763Z - info:   [15896] *** FOLDER: c:\homepage-gulp ***
+2020-04-16T08:41:21.764Z - info:   [15896] AzureReposVSCode/1.161.0 (VSCode 1.44.0; Windows_NT 10.0.17134; Node 12.8.1)
+2020-04-16T08:41:21.764Z - debug:  [15896] Looking for an External Context at c:\homepage-gulp
+2020-04-16T08:41:21.764Z - debug:  [15896] No External Context at c:\homepage-gulp
+2020-04-16T08:41:21.773Z - debug:  [15896] Looking for TFVC repository at c:\homepage-gulp
+2020-04-16T08:41:21.773Z - debug:  [15896] TFVC Creating Tfvc object with localPath='undefined'
+2020-04-16T08:41:21.773Z - debug:  [15896] Using TFS proxy: 
+2020-04-16T08:41:21.773Z - debug:  [15896] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2020-04-16T08:41:21.774Z - debug:  [15896] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
+2020-04-16T08:41:21.775Z - debug:  [15896] TFVC Repository.CheckVersion
+2020-04-16T08:41:21.775Z - debug:  [15896] TFVC: tf add -noprompt -?
+2020-04-16T08:41:21.779Z - debug:  [15896] TFVC: spawned new process (duration: 4ms)
+2020-04-16T08:41:21.784Z - debug:  [15896] TFVC: spawned new process (duration: 4ms)

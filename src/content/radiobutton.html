@@ -27,7 +27,15 @@ class Radio extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <input type="radio"/>
+      <div className="radioGroup">
+      <label className="radioLabel">
+        <input type="radio" name="radioTest" className="radiobutton"/>
+        <span className="radiobutton"></span>
+        </label>
+        <br/>
+        <input type="radio" name="radioTest"/><br/>
+        <input type="radio" name="radioTest"/><br/>
+        </div>
       </React.Fragment>
     );
   }
