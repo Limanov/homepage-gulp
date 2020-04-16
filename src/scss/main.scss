@@ -141,3 +141,7 @@ input[type="radio"] {
 input[type="radio"]:checked ~ .fakeRadio .checkmark {
   display: block;
 }
+
+li{
+  list-style: none;
+}
