@@ -6,28 +6,33 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $black;
   background: $white;
-  
+
 }
+
 .html__flexbox {
   color: black;
   background: darkviolet;
   border: 1px solid red;
 }
+
 .body__flexbox {
   color: black;
   background: darkviolet;
 }
-.flex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .flex__item {
@@ -44,54 +49,57 @@ body {
   padding: 1em;
 }
 
-.label{
+.label {
   color: red;
 }
 
-.divCheckbox{
-    width: 100%;
+.divCheckbox {
+  width: 100%;
 }
 
-.checkboxLabel{
-    color: #394e69;
-    font-size: 14px;
-    width: 80%;
-    height: 100px;
-    text-align: left;
-}    
-.checkboxActive {
-    position: relative;
-    color: darkblue;
-    border: #bbbbbb 1px solid;
-    background-color: yellow;
-    font-size: 14px;
-    width: 51px;
-    z-index: 1;
+.checkboxLabel {
+  color: #394e69;
+  font-size: 14px;
+  width: 80%;
+  height: 100px;
+  text-align: left;
 }
+
+.checkboxActive {
+  position: relative;
+  color: darkblue;
+  border: #bbbbbb 1px solid;
+  background-color: yellow;
+  font-size: 14px;
+  width: 51px;
+  z-index: 1;
+}
+
 .checkboxDeactive {
-    background-color: lightsteelblue;
-    border: #009688 1px solid;
-    font-size: 12px;
-    color: green;
-    width: 44px;
-    z-index: -1;
-    }
+  background-color: lightsteelblue;
+  border: #009688 1px solid;
+  font-size: 12px;
+  color: green;
+  width: 44px;
+  z-index: -1;
+}
 
 .checkboxLeft {
   border-radius: 50%;
   padding: 1em;
-    }
+}
 
 .checkboxRight {
-    margin-left: -1em;
-    border-radius: 50%;
-    padding: 1em;
-    }
+  margin-left: -1em;
+  border-radius: 50%;
+  padding: 1em;
+}
 
 .hcbx {
-    display: none;
-    }
-.radiobutton{
+  display: none;
+}
+
+.radiobutton {
   top: 0;
   left: 0;
   height: 125px;
@@ -100,13 +108,14 @@ body {
   border-radius: 50%;
 }
 
-.radioGroup{
-  display:flex;
+.radioGroup {
+  display: flex;
   flex-direction: column;
   padding: 16px;
   font-size: 30;
 }
-.radiobutton input:checked ~ .checkmark {
+
+.radiobutton input:checked~.checkmark {
   background-color: #2196F3;
 }
 
@@ -138,10 +147,24 @@ input[type="radio"] {
 }
 
 
-input[type="radio"]:checked ~ .fakeRadio .checkmark {
+input[type="radio"]:checked~.fakeRadio .checkmark {
   display: block;
 }
 
-li{
+li {
   list-style: none;
+}
+
+.window {
+  margin: 12px;
+  padding: 1px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.window__header {
+  background-color: green;
+  color: white;
+  padding: 2px;
 }

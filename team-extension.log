@@ -1,266 +1,36 @@
-2020-04-08T06:17:58.300Z - info:   [27744] *** FOLDER: c:\homepage-gulp ***
-2020-04-08T06:17:58.301Z - info:   [27744] AzureReposVSCode/1.161.0 (VSCode 1.43.2; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-08T06:17:58.302Z - debug:  [27744] Looking for an External Context at c:\homepage-gulp
-2020-04-08T06:17:58.302Z - debug:  [27744] No External Context at c:\homepage-gulp
-2020-04-08T06:17:58.326Z - debug:  [27744] Looking for TFVC repository at c:\homepage-gulp
-2020-04-08T06:17:58.326Z - debug:  [27744] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-08T06:17:58.327Z - debug:  [27744] Using TFS proxy: 
-2020-04-08T06:17:58.327Z - debug:  [27744] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-08T06:17:58.328Z - debug:  [27744] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-08T06:17:58.328Z - debug:  [27744] TFVC Repository.CheckVersion
-2020-04-08T06:17:58.329Z - debug:  [27744] TFVC: tf add -noprompt -?
-2020-04-08T06:17:58.333Z - debug:  [27744] TFVC: spawned new process (duration: 3ms)
-2020-04-08T06:17:58.340Z - debug:  [27744] TFVC: spawned new process (duration: 6ms)
-2020-04-08T06:18:02.760Z - debug:  [27744] TFVC: add exit code: 0 (duration: 4431ms)
-2020-04-08T06:18:02.761Z - debug:  [27744] TFVC Minimum required version: 14.102.0
-2020-04-08T06:18:02.761Z - debug:  [27744] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-08T06:18:02.762Z - debug:  [27744] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-08T06:18:02.762Z - debug:  [27744] TFVC: tf workfold -noprompt ********
-2020-04-08T06:18:02.766Z - debug:  [27744] TFVC: spawned new process (duration: 4ms)
-2020-04-08T06:18:03.081Z - debug:  [27744] TFVC: workfold exit code: 100 (duration: 319ms)
-2020-04-08T06:18:03.083Z - debug:  [27744] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+2020-04-21T10:54:57.226Z - info:   [02304] *** FOLDER: c:\homepage-gulp ***
+2020-04-21T10:54:57.227Z - info:   [02304] AzureReposVSCode/1.161.0 (VSCode 1.44.0; Windows_NT 10.0.17134; Node 12.8.1)
+2020-04-21T10:54:57.227Z - debug:  [02304] Looking for an External Context at c:\homepage-gulp
+2020-04-21T10:54:57.227Z - debug:  [02304] No External Context at c:\homepage-gulp
+2020-04-21T10:54:57.234Z - debug:  [02304] Looking for TFVC repository at c:\homepage-gulp
+2020-04-21T10:54:57.234Z - debug:  [02304] TFVC Creating Tfvc object with localPath='undefined'
+2020-04-21T10:54:57.234Z - debug:  [02304] Using TFS proxy: 
+2020-04-21T10:54:57.235Z - debug:  [02304] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2020-04-21T10:54:57.236Z - debug:  [02304] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
+2020-04-21T10:54:57.236Z - debug:  [02304] TFVC Repository.CheckVersion
+2020-04-21T10:54:57.237Z - debug:  [02304] TFVC: tf add -noprompt -?
+2020-04-21T10:54:57.247Z - debug:  [02304] TFVC: spawned new process (duration: 10ms)
+2020-04-21T10:54:57.251Z - debug:  [02304] TFVC: spawned new process (duration: 3ms)
+2020-04-21T10:55:01.650Z - debug:  [02304] TFVC: add exit code: 0 (duration: 4413ms)
+2020-04-21T10:55:01.650Z - debug:  [02304] TFVC Minimum required version: 14.102.0
+2020-04-21T10:55:01.650Z - debug:  [02304] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
+2020-04-21T10:55:01.651Z - debug:  [02304] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
+2020-04-21T10:55:01.651Z - debug:  [02304] TFVC: tf workfold -noprompt ********
+2020-04-21T10:55:01.655Z - debug:  [02304] TFVC: spawned new process (duration: 4ms)
+2020-04-21T10:55:02.053Z - debug:  [02304] TFVC: workfold exit code: 100 (duration: 402ms)
+2020-04-21T10:55:02.055Z - debug:  [02304] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
 
-2020-04-08T06:18:03.085Z - error:  [27744] Execution of the TFVC command line failed unexpectedly.
-2020-04-08T08:41:30.288Z - info:   [18908] *** FOLDER: c:\homepage-gulp ***
-2020-04-08T08:41:30.289Z - info:   [18908] AzureReposVSCode/1.161.0 (VSCode 1.43.2; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-08T08:41:30.290Z - debug:  [18908] Looking for an External Context at c:\homepage-gulp
-2020-04-08T08:41:30.290Z - debug:  [18908] No External Context at c:\homepage-gulp
-2020-04-08T08:41:30.297Z - debug:  [18908] Looking for TFVC repository at c:\homepage-gulp
-2020-04-08T08:41:30.297Z - debug:  [18908] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-08T08:41:30.299Z - debug:  [18908] Using TFS proxy: 
-2020-04-08T08:41:30.299Z - debug:  [18908] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-08T08:41:30.300Z - debug:  [18908] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-08T08:41:30.301Z - debug:  [18908] TFVC Repository.CheckVersion
-2020-04-08T08:41:30.302Z - debug:  [18908] TFVC: tf add -noprompt -?
-2020-04-08T08:41:30.313Z - debug:  [18908] TFVC: spawned new process (duration: 10ms)
-2020-04-08T08:41:30.321Z - debug:  [18908] TFVC: spawned new process (duration: 7ms)
-2020-04-08T08:41:35.750Z - debug:  [18908] TFVC: add exit code: 0 (duration: 5448ms)
-2020-04-08T08:41:35.751Z - debug:  [18908] TFVC Minimum required version: 14.102.0
-2020-04-08T08:41:35.751Z - debug:  [18908] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-08T08:41:35.752Z - debug:  [18908] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-08T08:41:35.752Z - debug:  [18908] TFVC: tf workfold -noprompt ********
-2020-04-08T08:41:35.759Z - debug:  [18908] TFVC: spawned new process (duration: 7ms)
-2020-04-08T08:41:36.473Z - debug:  [18908] TFVC: workfold exit code: 100 (duration: 721ms)
-2020-04-08T08:41:36.475Z - debug:  [18908] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-08T08:41:36.477Z - error:  [18908] Execution of the TFVC command line failed unexpectedly.
-2020-04-08T13:13:44.990Z - info:   [25472] *** FOLDER: c:\homepage-gulp ***
-2020-04-08T13:13:44.991Z - info:   [25472] AzureReposVSCode/1.161.0 (VSCode 1.43.2; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-08T13:13:44.992Z - debug:  [25472] Looking for an External Context at c:\homepage-gulp
-2020-04-08T13:13:44.992Z - debug:  [25472] No External Context at c:\homepage-gulp
-2020-04-08T13:13:44.999Z - debug:  [25472] Looking for TFVC repository at c:\homepage-gulp
-2020-04-08T13:13:44.999Z - debug:  [25472] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-08T13:13:45.000Z - debug:  [25472] Using TFS proxy: 
-2020-04-08T13:13:45.000Z - debug:  [25472] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-08T13:13:45.000Z - debug:  [25472] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-08T13:13:45.001Z - debug:  [25472] TFVC Repository.CheckVersion
-2020-04-08T13:13:45.001Z - debug:  [25472] TFVC: tf add -noprompt -?
-2020-04-08T13:13:45.006Z - debug:  [25472] TFVC: spawned new process (duration: 4ms)
-2020-04-08T13:13:45.011Z - debug:  [25472] TFVC: spawned new process (duration: 5ms)
-2020-04-08T13:13:49.320Z - debug:  [25472] TFVC: add exit code: 0 (duration: 4318ms)
-2020-04-08T13:13:49.321Z - debug:  [25472] TFVC Minimum required version: 14.102.0
-2020-04-08T13:13:49.321Z - debug:  [25472] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-08T13:13:49.321Z - debug:  [25472] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-08T13:13:49.321Z - debug:  [25472] TFVC: tf workfold -noprompt ********
-2020-04-08T13:13:49.325Z - debug:  [25472] TFVC: spawned new process (duration: 2ms)
-2020-04-08T13:13:49.702Z - debug:  [25472] TFVC: workfold exit code: 100 (duration: 381ms)
-2020-04-08T13:13:49.703Z - debug:  [25472] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-08T13:13:49.704Z - error:  [25472] Execution of the TFVC command line failed unexpectedly.
-2020-04-09T05:05:48.453Z - info:   [14848] *** FOLDER: c:\homepage-gulp ***
-2020-04-09T05:05:48.455Z - info:   [14848] AzureReposVSCode/1.161.0 (VSCode 1.43.2; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-09T05:05:48.456Z - debug:  [14848] Looking for an External Context at c:\homepage-gulp
-2020-04-09T05:05:48.456Z - debug:  [14848] No External Context at c:\homepage-gulp
-2020-04-09T05:05:48.464Z - debug:  [14848] Looking for TFVC repository at c:\homepage-gulp
-2020-04-09T05:05:48.465Z - debug:  [14848] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-09T05:05:48.466Z - debug:  [14848] Using TFS proxy: 
-2020-04-09T05:05:48.466Z - debug:  [14848] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-09T05:05:48.466Z - debug:  [14848] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-09T05:05:48.467Z - debug:  [14848] TFVC Repository.CheckVersion
-2020-04-09T05:05:48.468Z - debug:  [14848] TFVC: tf add -noprompt -?
-2020-04-09T05:05:48.480Z - debug:  [14848] TFVC: spawned new process (duration: 12ms)
-2020-04-09T05:05:48.485Z - debug:  [14848] TFVC: spawned new process (duration: 4ms)
-2020-04-09T05:05:53.886Z - debug:  [14848] TFVC: add exit code: 0 (duration: 5418ms)
-2020-04-09T05:05:53.887Z - debug:  [14848] TFVC Minimum required version: 14.102.0
-2020-04-09T05:05:53.887Z - debug:  [14848] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-09T05:05:53.888Z - debug:  [14848] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-09T05:05:53.888Z - debug:  [14848] TFVC: tf workfold -noprompt ********
-2020-04-09T05:05:53.892Z - debug:  [14848] TFVC: spawned new process (duration: 3ms)
-2020-04-09T05:05:54.659Z - debug:  [14848] TFVC: workfold exit code: 100 (duration: 771ms)
-2020-04-09T05:05:54.662Z - debug:  [14848] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-09T05:05:54.663Z - error:  [14848] Execution of the TFVC command line failed unexpectedly.
-2020-04-09T12:15:10.277Z - info:   [11268] *** FOLDER: c:\homepage-gulp ***
-2020-04-09T12:15:10.279Z - info:   [11268] AzureReposVSCode/1.161.0 (VSCode 1.43.2; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-09T12:15:10.279Z - debug:  [11268] Looking for an External Context at c:\homepage-gulp
-2020-04-09T12:15:10.280Z - debug:  [11268] No External Context at c:\homepage-gulp
-2020-04-09T12:15:10.290Z - debug:  [11268] Looking for TFVC repository at c:\homepage-gulp
-2020-04-09T12:15:10.291Z - debug:  [11268] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-09T12:15:10.291Z - debug:  [11268] Using TFS proxy: 
-2020-04-09T12:15:10.292Z - debug:  [11268] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-09T12:15:10.292Z - debug:  [11268] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-09T12:15:10.293Z - debug:  [11268] TFVC Repository.CheckVersion
-2020-04-09T12:15:10.295Z - debug:  [11268] TFVC: tf add -noprompt -?
-2020-04-09T12:15:10.312Z - debug:  [11268] TFVC: spawned new process (duration: 16ms)
-2020-04-09T12:15:10.318Z - debug:  [11268] TFVC: spawned new process (duration: 6ms)
-2020-04-09T12:15:17.690Z - debug:  [11268] TFVC: add exit code: 0 (duration: 7395ms)
-2020-04-09T12:15:17.691Z - debug:  [11268] TFVC Minimum required version: 14.102.0
-2020-04-09T12:15:17.691Z - debug:  [11268] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-09T12:15:17.692Z - debug:  [11268] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-09T12:15:17.692Z - debug:  [11268] TFVC: tf workfold -noprompt ********
-2020-04-09T12:15:17.697Z - debug:  [11268] TFVC: spawned new process (duration: 4ms)
-2020-04-09T12:15:18.919Z - debug:  [11268] TFVC: workfold exit code: 100 (duration: 1226ms)
-2020-04-09T12:15:18.921Z - debug:  [11268] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-09T12:15:18.922Z - error:  [11268] Execution of the TFVC command line failed unexpectedly.
-2020-04-10T09:08:35.553Z - info:   [12936] *** FOLDER: c:\homepage-gulp ***
-2020-04-10T09:08:35.554Z - info:   [12936] AzureReposVSCode/1.161.0 (VSCode 1.43.2; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-10T09:08:35.555Z - debug:  [12936] Looking for an External Context at c:\homepage-gulp
-2020-04-10T09:08:35.555Z - debug:  [12936] No External Context at c:\homepage-gulp
-2020-04-10T09:08:35.567Z - debug:  [12936] Looking for TFVC repository at c:\homepage-gulp
-2020-04-10T09:08:35.568Z - debug:  [12936] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-10T09:08:35.568Z - debug:  [12936] Using TFS proxy: 
-2020-04-10T09:08:35.568Z - debug:  [12936] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-10T09:08:35.569Z - debug:  [12936] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-10T09:08:35.569Z - debug:  [12936] TFVC Repository.CheckVersion
-2020-04-10T09:08:35.570Z - debug:  [12936] TFVC: tf add -noprompt -?
-2020-04-10T09:08:35.575Z - debug:  [12936] TFVC: spawned new process (duration: 5ms)
-2020-04-10T09:08:35.581Z - debug:  [12936] TFVC: spawned new process (duration: 5ms)
-2020-04-10T09:08:39.557Z - debug:  [12936] TFVC: add exit code: 0 (duration: 3987ms)
-2020-04-10T09:08:39.558Z - debug:  [12936] TFVC Minimum required version: 14.102.0
-2020-04-10T09:08:39.558Z - debug:  [12936] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-10T09:08:39.559Z - debug:  [12936] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-10T09:08:39.559Z - debug:  [12936] TFVC: tf workfold -noprompt ********
-2020-04-10T09:08:39.562Z - debug:  [12936] TFVC: spawned new process (duration: 3ms)
-2020-04-10T09:08:39.832Z - debug:  [12936] TFVC: workfold exit code: 100 (duration: 273ms)
-2020-04-10T09:08:39.834Z - debug:  [12936] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-10T09:08:39.835Z - error:  [12936] Execution of the TFVC command line failed unexpectedly.
-2020-04-14T07:19:05.606Z - info:   [09684] *** FOLDER: c:\homepage-gulp ***
-2020-04-14T07:19:05.607Z - info:   [09684] AzureReposVSCode/1.161.0 (VSCode 1.43.2; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-14T07:19:05.608Z - debug:  [09684] Looking for an External Context at c:\homepage-gulp
-2020-04-14T07:19:05.609Z - debug:  [09684] No External Context at c:\homepage-gulp
-2020-04-14T07:19:05.618Z - debug:  [09684] Looking for TFVC repository at c:\homepage-gulp
-2020-04-14T07:19:05.618Z - debug:  [09684] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-14T07:19:05.620Z - debug:  [09684] Using TFS proxy: 
-2020-04-14T07:19:05.620Z - debug:  [09684] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-14T07:19:05.621Z - debug:  [09684] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-14T07:19:05.622Z - debug:  [09684] TFVC Repository.CheckVersion
-2020-04-14T07:19:05.623Z - debug:  [09684] TFVC: tf add -noprompt -?
-2020-04-14T07:19:05.637Z - debug:  [09684] TFVC: spawned new process (duration: 12ms)
-2020-04-14T07:19:05.644Z - debug:  [09684] TFVC: spawned new process (duration: 6ms)
-2020-04-14T07:19:13.629Z - debug:  [09684] TFVC: add exit code: 0 (duration: 8004ms)
-2020-04-14T07:19:13.630Z - debug:  [09684] TFVC Minimum required version: 14.102.0
-2020-04-14T07:19:13.631Z - debug:  [09684] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-14T07:19:13.631Z - debug:  [09684] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-14T07:19:13.632Z - debug:  [09684] TFVC: tf workfold -noprompt ********
-2020-04-14T07:19:13.636Z - debug:  [09684] TFVC: spawned new process (duration: 4ms)
-2020-04-14T07:19:14.400Z - debug:  [09684] TFVC: workfold exit code: 100 (duration: 768ms)
-2020-04-14T07:19:14.402Z - debug:  [09684] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-14T07:19:14.403Z - error:  [09684] Execution of the TFVC command line failed unexpectedly.
-2020-04-14T07:25:42.917Z - info:   [11812] *** FOLDER: c:\homepage-gulp ***
-2020-04-14T07:25:42.918Z - info:   [11812] AzureReposVSCode/1.161.0 (VSCode 1.44.0; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-14T07:25:42.919Z - debug:  [11812] Looking for an External Context at c:\homepage-gulp
-2020-04-14T07:25:42.919Z - debug:  [11812] No External Context at c:\homepage-gulp
-2020-04-14T07:25:42.928Z - debug:  [11812] Looking for TFVC repository at c:\homepage-gulp
-2020-04-14T07:25:42.929Z - debug:  [11812] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-14T07:25:42.929Z - debug:  [11812] Using TFS proxy: 
-2020-04-14T07:25:42.930Z - debug:  [11812] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-14T07:25:42.933Z - debug:  [11812] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-14T07:25:42.938Z - debug:  [11812] TFVC Repository.CheckVersion
-2020-04-14T07:25:42.939Z - debug:  [11812] TFVC: tf add -noprompt -?
-2020-04-14T07:25:42.947Z - debug:  [11812] TFVC: spawned new process (duration: 6ms)
-2020-04-14T07:25:42.953Z - debug:  [11812] TFVC: spawned new process (duration: 5ms)
-2020-04-14T07:25:48.755Z - debug:  [11812] TFVC: add exit code: 0 (duration: 5815ms)
-2020-04-14T07:25:48.756Z - debug:  [11812] TFVC Minimum required version: 14.102.0
-2020-04-14T07:25:48.757Z - debug:  [11812] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-14T07:25:48.757Z - debug:  [11812] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-14T07:25:48.758Z - debug:  [11812] TFVC: tf workfold -noprompt ********
-2020-04-14T07:25:48.762Z - debug:  [11812] TFVC: spawned new process (duration: 4ms)
-2020-04-14T07:25:49.118Z - debug:  [11812] TFVC: workfold exit code: 100 (duration: 360ms)
-2020-04-14T07:25:49.121Z - debug:  [11812] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-14T07:25:49.121Z - error:  [11812] Execution of the TFVC command line failed unexpectedly.
-2020-04-14T08:34:22.847Z - info:   [27820] *** FOLDER: c:\homepage-gulp ***
-2020-04-14T08:34:22.848Z - info:   [27820] AzureReposVSCode/1.161.0 (VSCode 1.44.0; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-14T08:34:22.848Z - debug:  [27820] Looking for an External Context at c:\homepage-gulp
-2020-04-14T08:34:22.848Z - debug:  [27820] No External Context at c:\homepage-gulp
-2020-04-14T08:34:22.857Z - debug:  [27820] Looking for TFVC repository at c:\homepage-gulp
-2020-04-14T08:34:22.857Z - debug:  [27820] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-14T08:34:22.857Z - debug:  [27820] Using TFS proxy: 
-2020-04-14T08:34:22.858Z - debug:  [27820] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-14T08:34:22.858Z - debug:  [27820] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-14T08:34:22.859Z - debug:  [27820] TFVC Repository.CheckVersion
-2020-04-14T08:34:22.859Z - debug:  [27820] TFVC: tf add -noprompt -?
-2020-04-14T08:34:22.862Z - debug:  [27820] TFVC: spawned new process (duration: 3ms)
-2020-04-14T08:34:22.867Z - debug:  [27820] TFVC: spawned new process (duration: 4ms)
-2020-04-14T08:34:27.801Z - debug:  [27820] TFVC: add exit code: 0 (duration: 4942ms)
-2020-04-14T08:34:27.801Z - debug:  [27820] TFVC Minimum required version: 14.102.0
-2020-04-14T08:34:27.801Z - debug:  [27820] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-14T08:34:27.801Z - debug:  [27820] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-14T08:34:27.802Z - debug:  [27820] TFVC: tf workfold -noprompt ********
-2020-04-14T08:34:27.805Z - debug:  [27820] TFVC: spawned new process (duration: 3ms)
-2020-04-14T08:34:28.102Z - debug:  [27820] TFVC: workfold exit code: 100 (duration: 300ms)
-2020-04-14T08:34:28.104Z - debug:  [27820] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-14T08:34:28.104Z - error:  [27820] Execution of the TFVC command line failed unexpectedly.
-2020-04-15T05:27:22.346Z - info:   [11416] *** FOLDER: c:\homepage-gulp ***
-2020-04-15T05:27:22.347Z - info:   [11416] AzureReposVSCode/1.161.0 (VSCode 1.44.0; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-15T05:27:22.347Z - debug:  [11416] Looking for an External Context at c:\homepage-gulp
-2020-04-15T05:27:22.347Z - debug:  [11416] No External Context at c:\homepage-gulp
-2020-04-15T05:27:22.360Z - debug:  [11416] Looking for TFVC repository at c:\homepage-gulp
-2020-04-15T05:27:22.361Z - debug:  [11416] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-15T05:27:22.361Z - debug:  [11416] Using TFS proxy: 
-2020-04-15T05:27:22.362Z - debug:  [11416] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-15T05:27:22.362Z - debug:  [11416] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-15T05:27:22.363Z - debug:  [11416] TFVC Repository.CheckVersion
-2020-04-15T05:27:22.363Z - debug:  [11416] TFVC: tf add -noprompt -?
-2020-04-15T05:27:22.381Z - debug:  [11416] TFVC: spawned new process (duration: 17ms)
-2020-04-15T05:27:22.387Z - debug:  [11416] TFVC: spawned new process (duration: 5ms)
-2020-04-15T05:27:31.820Z - debug:  [11416] TFVC: add exit code: 0 (duration: 9456ms)
-2020-04-15T05:27:31.820Z - debug:  [11416] TFVC Minimum required version: 14.102.0
-2020-04-15T05:27:31.821Z - debug:  [11416] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-15T05:27:31.821Z - debug:  [11416] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-15T05:27:31.821Z - debug:  [11416] TFVC: tf workfold -noprompt ********
-2020-04-15T05:27:31.829Z - debug:  [11416] TFVC: spawned new process (duration: 6ms)
-2020-04-15T05:27:32.750Z - debug:  [11416] TFVC: workfold exit code: 100 (duration: 928ms)
-2020-04-15T05:27:32.752Z - debug:  [11416] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-15T05:27:32.752Z - error:  [11416] Execution of the TFVC command line failed unexpectedly.
-2020-04-15T07:16:23.142Z - info:   [19528] *** FOLDER: c:\homepage-gulp ***
-2020-04-15T07:16:23.143Z - info:   [19528] AzureReposVSCode/1.161.0 (VSCode 1.44.0; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-15T07:16:23.143Z - debug:  [19528] Looking for an External Context at c:\homepage-gulp
-2020-04-15T07:16:23.143Z - debug:  [19528] No External Context at c:\homepage-gulp
-2020-04-15T07:16:23.149Z - debug:  [19528] Looking for TFVC repository at c:\homepage-gulp
-2020-04-15T07:16:23.150Z - debug:  [19528] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-15T07:16:23.151Z - debug:  [19528] Using TFS proxy: 
-2020-04-15T07:16:23.151Z - debug:  [19528] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-15T07:16:23.152Z - debug:  [19528] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-15T07:16:23.152Z - debug:  [19528] TFVC Repository.CheckVersion
-2020-04-15T07:16:23.153Z - debug:  [19528] TFVC: tf add -noprompt -?
-2020-04-15T07:16:23.156Z - debug:  [19528] TFVC: spawned new process (duration: 3ms)
-2020-04-15T07:16:23.161Z - debug:  [19528] TFVC: spawned new process (duration: 4ms)
-2020-04-15T07:16:27.084Z - debug:  [19528] TFVC: add exit code: 0 (duration: 3931ms)
-2020-04-15T07:16:27.085Z - debug:  [19528] TFVC Minimum required version: 14.102.0
-2020-04-15T07:16:27.085Z - debug:  [19528] TFVC (TF.exe, TF.cmd) version: 15.129.29201.2
-2020-04-15T07:16:27.085Z - debug:  [19528] TFVC Repository.FindWorkspace with localPath='c:\homepage-gulp'
-2020-04-15T07:16:27.085Z - debug:  [19528] TFVC: tf workfold -noprompt ********
-2020-04-15T07:16:27.088Z - debug:  [19528] TFVC: spawned new process (duration: 3ms)
-2020-04-15T07:16:27.326Z - debug:  [19528] TFVC: workfold exit code: 100 (duration: 241ms)
-2020-04-15T07:16:27.327Z - debug:  [19528] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
-
-2020-04-15T07:16:27.327Z - error:  [19528] Execution of the TFVC command line failed unexpectedly.
-2020-04-16T08:41:21.763Z - info:   [15896] *** FOLDER: c:\homepage-gulp ***
-2020-04-16T08:41:21.764Z - info:   [15896] AzureReposVSCode/1.161.0 (VSCode 1.44.0; Windows_NT 10.0.17134; Node 12.8.1)
-2020-04-16T08:41:21.764Z - debug:  [15896] Looking for an External Context at c:\homepage-gulp
-2020-04-16T08:41:21.764Z - debug:  [15896] No External Context at c:\homepage-gulp
-2020-04-16T08:41:21.773Z - debug:  [15896] Looking for TFVC repository at c:\homepage-gulp
-2020-04-16T08:41:21.773Z - debug:  [15896] TFVC Creating Tfvc object with localPath='undefined'
-2020-04-16T08:41:21.773Z - debug:  [15896] Using TFS proxy: 
-2020-04-16T08:41:21.773Z - debug:  [15896] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
-2020-04-16T08:41:21.774Z - debug:  [15896] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
-2020-04-16T08:41:21.775Z - debug:  [15896] TFVC Repository.CheckVersion
-2020-04-16T08:41:21.775Z - debug:  [15896] TFVC: tf add -noprompt -?
-2020-04-16T08:41:21.779Z - debug:  [15896] TFVC: spawned new process (duration: 4ms)
-2020-04-16T08:41:21.784Z - debug:  [15896] TFVC: spawned new process (duration: 4ms)
+2020-04-21T10:55:02.058Z - error:  [02304] Execution of the TFVC command line failed unexpectedly.
+2020-06-10T06:51:52.553Z - info:   [09948] *** FOLDER: c:\homepage-gulp ***
+2020-06-10T06:51:52.554Z - info:   [09948] AzureReposVSCode/1.161.0 (VSCode 1.45.0; Windows_NT 10.0.17134; Node 12.8.1)
+2020-06-10T06:51:52.554Z - debug:  [09948] Looking for an External Context at c:\homepage-gulp
+2020-06-10T06:51:52.554Z - debug:  [09948] No External Context at c:\homepage-gulp
+2020-06-10T06:51:52.565Z - debug:  [09948] Looking for TFVC repository at c:\homepage-gulp
+2020-06-10T06:51:52.565Z - debug:  [09948] TFVC Creating Tfvc object with localPath='undefined'
+2020-06-10T06:51:52.565Z - debug:  [09948] Using TFS proxy: 
+2020-06-10T06:51:52.566Z - debug:  [09948] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2020-06-10T06:51:52.566Z - debug:  [09948] TFVC Repository created with repositoryRootFolder='c:\homepage-gulp'
+2020-06-10T06:51:52.567Z - debug:  [09948] TFVC Repository.CheckVersion
+2020-06-10T06:51:52.567Z - debug:  [09948] TFVC: tf add -noprompt -?
+2020-06-10T06:51:52.578Z - debug:  [09948] TFVC: spawned new process (duration: 10ms)
+2020-06-10T06:51:52.583Z - debug:  [09948] TFVC: spawned new process (duration: 5ms)
